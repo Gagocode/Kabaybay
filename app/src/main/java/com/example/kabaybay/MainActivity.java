@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btn;
     private Button btn2;
     private Button btn3;
-    private Button btn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,13 +43,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn4 = (Button) findViewById(R.id.button4);
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openPagsusulit();
-            }
-        });
     }
     public void openPagbasa() {
         Intent intent = new Intent(this, Pagbasa.class);
@@ -61,11 +53,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openKasaysayan() {
-        Intent intent = new Intent(this, Pagsusulat.class);
-        startActivity(intent);
-    }
-    public void openPagsusulit() {
-        Intent intent = new Intent(this, Pagsusulat.class);
+        Intent intent = new Intent(this, Kasaysayan.class);
         startActivity(intent);
     }
     @Override

@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Kabaybay"
         tools:targetApi="31">
         <activity
+            android:name=".Ta"
+            android:exported="false" />
+        <activity
+            android:name=".Ka"
+            android:exported="false" />
+        <activity
+            android:name=".Ba"
+            android:exported="false" />
+        <activity
             android:name=".Settings"
             android:exported="false" />
         <activity
