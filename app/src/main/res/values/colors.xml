@@ -9,6 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="brown">#875307</color>
     <color name="DarkCharcoal">#222222</color>
-    <color name="ChineseBlack"> #111111</color>
-    <color name="OuterSpace">Hex: #444444</color>
+    <color name="ChineseBlack">#111111</color>
+    <color name="OuterSpace">#444444</color>
 </resources>
