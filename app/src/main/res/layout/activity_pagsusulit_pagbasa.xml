@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pagsusulat"
+    tools:context=".Pagsusulit_pagbasa"
     android:background="@drawable/gradient_background">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

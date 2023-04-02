@@ -12,13 +12,19 @@
         android:theme="@style/Theme.Kabaybay"
         tools:targetApi="31">
         <activity
-            android:name=".Pagsusulit"
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Pagsusulit_pagbasa"
+            android:exported="false" />
+        <activity
+            android:name=".Pagsusulit_Pagsusulat"
             android:exported="false" />
         <activity
             android:name=".Kasaysayan"
             android:exported="false" />
         <activity
-            android:name=".Pagsulat"
+            android:name=".Pagsusulat"
             android:exported="false" />
         <activity
             android:name=".Pagbasa"

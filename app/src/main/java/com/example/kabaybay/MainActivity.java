@@ -5,11 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
-
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         btn = (Button) findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
@@ -60,15 +57,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openPagsulat() {
-        Intent intent = new Intent(this, Pagsulat.class);
+        Intent intent = new Intent(this, Pagsusulat.class);
         startActivity(intent);
     }
     public void openKasaysayan() {
-        Intent intent = new Intent(this, Pagsulat.class);
+        Intent intent = new Intent(this, Pagsusulat.class);
         startActivity(intent);
     }
     public void openPagsusulit() {
-        Intent intent = new Intent(this, Pagsulat.class);
+        Intent intent = new Intent(this, Pagsusulat.class);
         startActivity(intent);
     }
     @Override
