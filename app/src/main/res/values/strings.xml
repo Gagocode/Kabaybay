@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Kabaybay</string>
     <string name="app_logo">App logo</string>
+    <string name="Simula">      There is no exact date when did Baybayin started but as early as 900 AD we know it already existed because of the Laguna Copperplate Inscription. Baybayin written in many artifacts along side with its sister writing systems.</string>
+    <string name="lci">Laguna Copperplate Inscription</string>
+    <string name="Pangalawa">       Aside from Laguna Copperplate Inscription there are many more artifacts where Baybayin characters are present like Butuan Ivory Seal, Calatagan Pot, and many more.</string>
+    <string name="bis">Butuan Ivory Seal</string>
+    <string name="cp">Calatagan pot</string>
 </resources>
