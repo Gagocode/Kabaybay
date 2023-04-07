@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Kabaybay"
         tools:targetApi="31">
         <activity
+            android:name=".Patinig"
+            android:exported="false" />
+        <activity
+            android:name=".Katinig"
+            android:exported="false" />
+        <activity
+            android:name=".Rebolusyon"
+            android:exported="false" />
+        <activity
+            android:name=".Koloniyalisasyon"
+            android:exported="false" />
+        <activity
             android:name=".Simula"
             android:exported="false" />
         <activity
