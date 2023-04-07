@@ -13,7 +13,6 @@ public class Ka extends AppCompatActivity {
     private Button btn;
     private Button btn2;
     private Button btn3;
-    private Button btn4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
