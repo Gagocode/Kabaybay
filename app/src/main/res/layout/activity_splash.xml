@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="190dp"
-        android:layout_height="349dp"
+        android:layout_width="192dp"
+        android:layout_height="191dp"
         android:contentDescription="@string/app_logo"
         android:src="@drawable/baybayin_ka"
         app:layout_constraintBottom_toBottomOf="parent"

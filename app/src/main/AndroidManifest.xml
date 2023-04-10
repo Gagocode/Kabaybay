@@ -12,6 +12,36 @@
         android:theme="@style/Theme.Kabaybay"
         tools:targetApi="31">
         <activity
+            android:name=".Ya"
+            android:exported="false" />
+        <activity
+            android:name=".Wa"
+            android:exported="false" />
+        <activity
+            android:name=".Sa"
+            android:exported="false" />
+        <activity
+            android:name=".Pa"
+            android:exported="false" />
+        <activity
+            android:name=".Na"
+            android:exported="false" />
+        <activity
+            android:name=".Ma"
+            android:exported="false" />
+        <activity
+            android:name=".La"
+            android:exported="false" />
+        <activity
+            android:name=".Ha"
+            android:exported="false" />
+        <activity
+            android:name=".Ga"
+            android:exported="false" />
+        <activity
+            android:name=".Da"
+            android:exported="false" />
+        <activity
             android:name=".Patinig"
             android:exported="false" />
         <activity
