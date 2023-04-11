@@ -29,7 +29,7 @@
                 android:layout_marginStart="17dp"
                 android:text="ᜑ"
                 android:textColor="@color/white"
-                android:textSize="125dp" />
+                android:textSize="125sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
                 android:layout_marginBottom="23dp"
                 android:text="Ha"
                 android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textSize="43sp" />
 
             <Button
                 android:id="@+id/Player"
@@ -72,7 +72,7 @@
                 android:layout_marginStart="17dp"
                 android:text="ᜑᜒ"
                 android:textColor="@color/white"
-                android:textSize="125dp" />
+                android:textSize="125sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
                 android:layout_marginBottom="23dp"
                 android:text="He/Hi"
                 android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textSize="43sp" />
 
             <Button
                 android:id="@+id/Player2"
@@ -113,7 +113,7 @@
                 android:layout_marginStart="17dp"
                 android:text="ᜑᜓᜓ"
                 android:textColor="@color/white"
-                android:textSize="125dp" />
+                android:textSize="125sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
                 android:layout_marginEnd="20dp"
                 android:text="Ho/Hu"
                 android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textSize="43sp" />
 
             <Button
                 android:id="@+id/Player3"

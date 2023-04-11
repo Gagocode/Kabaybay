@@ -29,7 +29,7 @@
                 android:layout_marginStart="17dp"
                 android:text="ᜋ"
                 android:textColor="@color/white"
-                android:textSize="125dp" />
+                android:textSize="125sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
                 android:layout_marginBottom="23dp"
                 android:text="Ma"
                 android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textSize="43sp" />
 
             <Button
                 android:id="@+id/Player"
@@ -69,10 +69,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="17dp"
+                android:layout_marginStart="15dp"
                 android:text="ᜋᜒ"
                 android:textColor="@color/white"
-                android:textSize="125dp" />
+                android:textSize="125sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -81,12 +81,12 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="34dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="47dp"
-                android:layout_marginEnd="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginBottom="23dp"
                 android:text="Me/Mi"
                 android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textSize="43sp" />
 
             <Button
                 android:id="@+id/Player2"
@@ -110,10 +110,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="17dp"
+                android:layout_marginStart="15dp"
                 android:text="ᜋᜓᜓ"
                 android:textColor="@color/white"
-                android:textSize="125dp" />
+                android:textSize="125sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -122,11 +122,11 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="34dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="47dp"
-                android:layout_marginEnd="20dp"
+                android:layout_marginTop="51dp"
+                android:layout_marginEnd="15dp"
                 android:text="Mo/Mu"
                 android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textSize="43sp" />
 
             <Button
                 android:id="@+id/Player3"
