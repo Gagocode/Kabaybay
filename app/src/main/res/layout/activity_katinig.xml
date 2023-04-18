@@ -32,6 +32,7 @@
                 android:background="@drawable/button"
                 android:text="ᜊ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
             <Button
@@ -46,6 +47,7 @@
                 android:background="@drawable/button"
                 android:text="ᜃ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
         </RelativeLayout>
@@ -67,6 +69,7 @@
                 android:background="@drawable/button"
                 android:text="ᜇ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
             <Button
@@ -81,6 +84,7 @@
                 android:background="@drawable/button"
                 android:text="ᜄ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
         </RelativeLayout>
@@ -102,6 +106,7 @@
                 android:background="@drawable/button"
                 android:text="ᜑ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
             <Button
@@ -116,6 +121,7 @@
                 android:background="@drawable/button"
                 android:text="ᜎ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
         </RelativeLayout>
@@ -137,6 +143,7 @@
                 android:background="@drawable/button"
                 android:text="ᜋ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
             <Button
@@ -151,6 +158,7 @@
                 android:background="@drawable/button"
                 android:text="ᜈ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
         </RelativeLayout>
@@ -172,6 +180,7 @@
                 android:background="@drawable/button"
                 android:text="ᜉ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
             <Button
@@ -186,6 +195,7 @@
                 android:background="@drawable/button"
                 android:text="ᜐ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
         </RelativeLayout>
@@ -207,6 +217,7 @@
                 android:background="@drawable/button"
                 android:text="ᜆ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
             <Button
@@ -221,6 +232,7 @@
                 android:background="@drawable/button"
                 android:text="ᜏ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
         </RelativeLayout>
@@ -243,6 +255,7 @@
                 android:background="@drawable/button"
                 android:text="ᜌ"
                 android:textSize="70dp"
+                android:textColor="@color/white"
                 android:padding="5px"/>
 
 

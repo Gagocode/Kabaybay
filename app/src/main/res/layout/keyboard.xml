@@ -7,39 +7,53 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/ka"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="1"/>
+            android:text="ᜃ"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/ga"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2"/>
+            android:text="ᜄ"/>
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/nga"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="3"/>
+            android:text="ᜅ"/>
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/e"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="4"/>
+            android:text="ᜒ"/>
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/ta"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5"/>
+            android:text="ᜆ"/>
+
+        <Button
+            android:id="@+id/da"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜇ"/>
+
+        <Button
+            android:id="@+id/na"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜈ"/>
 
     </LinearLayout>
 
@@ -47,38 +61,100 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="6"/>
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="7"/>
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="8"/>
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="9"/>
-
         <Button
-            android:id="@+id/button0"
+            android:id="@+id/pa"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="0"/>
+            android:text="ᜉ"/>
+        <Button
+            android:id="@+id/ba"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜊ"/>
+        <Button
+            android:id="@+id/ma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜋ"/>
+        <Button
+            android:id="@+id/o"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜓ"/>
+
+        <Button
+            android:id="@+id/ya"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜌ"/>
+        <Button
+            android:id="@+id/la"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜎ"/>
+
+        <Button
+            android:id="@+id/wa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜏ"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜀ"/>
+        <Button
+            android:id="@+id/i"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜁ"/>
+        <Button
+            android:id="@+id/u"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜂ"/>
+
+        <Button
+            android:id="@+id/silent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="᜔"/>
+        <Button
+            android:id="@+id/sa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜐ"/>
+        <Button
+            android:id="@+id/ha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ᜑ"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DEL"/>
     </LinearLayout>
 
     <LinearLayout
@@ -87,18 +163,25 @@
         android:orientation="horizontal"
         >
         <Button
-            android:id="@+id/delete"
+            android:id="@+id/pause"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="DELETE"/>
+            android:layout_weight="1"
+            android:text="|"/>
 
         <Button
-            android:id="@+id/enter"
+            android:id="@+id/space"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:text="ENTER"/>
+            android:text="space"
+            android:textColor="@color/OuterSpace"/>
+        <Button
+            android:id="@+id/period"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="||"/>
     </LinearLayout>
 
 </merge>

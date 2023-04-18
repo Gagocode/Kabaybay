@@ -12,18 +12,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="175dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
         android:background="@color/white"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:inputType="textNoSuggestions"
+        android:textSize="20dp"
+        />
 
     <com.example.kabaybay.MyKeyboard
         android:id="@+id/keyboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="@color/white"
         android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
