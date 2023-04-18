@@ -1,9 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".baybay">
+    tools:context=".baybay"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/ba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/button"
+                android:text="ᜊ"
+                android:textSize="70dp"
+                android:textColor="@color/white"
+                android:padding="5px"/>
+
+            <Button
+                android:id="@+id/ka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/button"
+                android:text="ᜃ"
+                android:textSize="70dp"
+                android:textColor="@color/white"
+                android:padding="5px"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="35dp">
+
+            <Button
+                android:id="@+id/da"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/button"
+                android:text="ᜇ"
+                android:textSize="70dp"
+                android:textColor="@color/white"
+                android:padding="5px"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
