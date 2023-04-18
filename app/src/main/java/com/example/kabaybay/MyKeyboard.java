@@ -19,7 +19,7 @@ public class MyKeyboard extends LinearLayout implements View.OnClickListener {
             button6, button7, button8, button9, button0, button11,
             button12, button13, button14, button15, button16, button17,
             button18, button19 , button20 ,buttonDelete, buttonspace,
-            peroid, pause;
+            peroid, pause, enter;
 
     private SparseArray<String> keyValues = new SparseArray<>();
     private InputConnection inputConnection;
@@ -89,6 +89,8 @@ public class MyKeyboard extends LinearLayout implements View.OnClickListener {
         buttonspace.setOnClickListener(this);
         buttonDelete = (Button) findViewById(R.id.delete);
         buttonDelete.setOnClickListener(this);
+        enter = (Button) findViewById(R.id.enter);
+        enter.setOnClickListener(this);
 
         keyValues.put(R.id.ka, "ᜃ");
         keyValues.put(R.id.ga, "ᜄ");
@@ -116,6 +118,7 @@ public class MyKeyboard extends LinearLayout implements View.OnClickListener {
         keyValues.put(R.id.pause, "|");
         keyValues.put(R.id.period, "||");
         keyValues.put(R.id.space, " ");
+        keyValues.put(R.id.enter, "\n");
     }
     @Override
     public void onClick(View v) {

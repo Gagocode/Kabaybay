@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Kabaybay</string>
     <string name="app_logo">App logo</string>
-    <string name="Simula">      There is no exact date when did Baybayin started but as early as 900 AD we know it already existed because of the Laguna Copperplate Inscription. Baybayin written in many artifacts along side with its sister writing systems.</string>
+    <string name="Simula">There is no exact date when did Baybayin started but as early as 900 AD we know it already existed because of the Laguna Copperplate Inscription. Baybayin written in many artifacts along side with its sister writing systems.</string>
     <string name="lci">Laguna Copperplate Inscription</string>
-    <string name="Pangalawa">       Aside from Laguna Copperplate Inscription there are many more artifacts where Baybayin characters are present like Butuan Ivory Seal, Calatagan Pot, and many more.</string>
+    <string name="Pangalawa">Aside from Laguna Copperplate Inscription there are many more artifacts where Baybayin characters are present like Butuan Ivory Seal, Calatagan Pot, and many more.</string>
     <string name="bis">Butuan Ivory Seal</string>
     <string name="cp">Calatagan pot</string>
+    <string name="kolonialismo1">Baybayin was the form of writing used before the Spanish arrived in 1521 and missionaries had to learn it initially to spread Catholicism before forcing locals to adopt their Roman alphabet, historians say.</string>
+    <string name="kolonialismo2">Even though the Roman alphabet is forced to adapt Baybayin remained in use throughout history example of these are the two documents written in Baybayin in the University of Santo Tomas about a real estate transactions from early 1600s</string>
+    <string name="ust">Back and Front of two different documents from early 1600s </string>
+
 </resources>

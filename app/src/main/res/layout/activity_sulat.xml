@@ -7,21 +7,19 @@
     tools:context=".Sulat"
     android:background="@drawable/gradient_background">
 
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
         android:background="@color/white"
+        android:inputType="textMultiLine|textNoSuggestions"
         android:padding="5dp"
-        android:inputType="textNoSuggestions"
-        android:textSize="20dp"
-        />
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
     <com.example.kabaybay.MyKeyboard
         android:id="@+id/keyboard"
