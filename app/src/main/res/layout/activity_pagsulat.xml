@@ -14,22 +14,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
-        android:text="Sulat"
+        android:text="baybay"
         android:textColor="@color/white"
         android:textSize="50sp"
         android:paddingVertical="10px"
-        android:paddingHorizontal="30dp"
+        android:paddingHorizontal="20dp"
         />
     <Button
         android:id="@+id/baybay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
-        android:text="baybay"
+        android:text="sulat"
         android:textColor="@color/white"
         android:textSize="50sp"
         android:paddingVertical="10px"
-        android:paddingHorizontal="20dp"
+        android:paddingHorizontal="30dp"
         android:layout_marginTop="50dp"
         />
 
