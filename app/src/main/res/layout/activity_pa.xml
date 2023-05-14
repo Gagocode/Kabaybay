@@ -26,8 +26,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜉ"
-                android:textColor="@color/black"
-                android:background="@color/white"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
                 android:textSize="120sp" />
 
             <TextView
@@ -41,8 +41,8 @@
                 android:layout_marginEnd="69dp"
                 android:layout_marginBottom="23dp"
                 android:text="Pa"
-                android:textColor="@color/black"
-                android:background="@color/white"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
                 android:textSize="50sp" />
 
             <ImageButton
@@ -71,8 +71,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜉᜒ"
-                android:textColor="@color/black"
-                android:background="@color/white"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
                 android:textSize="120sp" />
 
             <TextView
@@ -86,8 +86,8 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="23dp"
                 android:text="Pe/Pi"
-                android:textColor="@color/black"
-                android:background="@color/white"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
                 android:textSize="50sp" />
 
             <ImageButton
@@ -114,8 +114,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜉᜓ"
-                android:textColor="@color/black"
-                android:background="@color/white"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
                 android:textSize="120sp" />
 
             <TextView
@@ -128,12 +128,54 @@
                 android:layout_marginTop="47dp"
                 android:layout_marginEnd="10dp"
                 android:text="Po/Pu"
-                android:textColor="@color/black"
-                android:background="@color/white"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
                 android:textSize="50sp" />
 
             <ImageButton
                 android:id="@+id/Player3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="118dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/pngegg" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:layout_marginTop="720dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="17dp"
+                android:text="ᜉ᜔"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
+                android:textSize="120sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="10dp"
+                android:text="P"
+                android:textColor="?colorOnSecondary"
+                android:background="?colorSecondary"
+                android:textSize="50sp" />
+
+            <ImageButton
+                android:id="@+id/Player4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentTop="true"
