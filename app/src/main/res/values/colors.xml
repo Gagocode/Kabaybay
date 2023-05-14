@@ -12,4 +12,6 @@
     <color name="ChineseBlack">#111111</color>
     <color name="OuterSpace">#444444</color>
     <color name="darkbrown">#2C2300</color>
+    <color name="statusBarBrown">#251706</color>
+    <color name="buttonshadow">#474747</color>
 </resources>

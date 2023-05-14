@@ -28,7 +28,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜇ"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="125sp" />
 
             <TextView
@@ -42,10 +43,11 @@
                 android:layout_marginEnd="69dp"
                 android:layout_marginBottom="23dp"
                 android:text="Da"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="43sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/Player"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -71,7 +73,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜇᜒᜒ"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="125sp" />
 
             <TextView
@@ -85,10 +88,11 @@
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="23dp"
                 android:text="De/Di"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="43sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/Player2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -112,7 +116,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜇᜓᜓ"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="125sp" />
 
             <TextView
@@ -125,10 +130,11 @@
                 android:layout_marginTop="47dp"
                 android:layout_marginEnd="20dp"
                 android:text="Do/Du"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="43sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/Player3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

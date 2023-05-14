@@ -16,8 +16,9 @@
         android:background="@drawable/button"
         android:text="Patinig"
         android:textSize="50dp"
+        android:textColor="@color/black"
         android:padding="10dp"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginBottom="50dp" />
     <Button
         android:id="@+id/katinig"
         android:layout_width="wrap_content"
@@ -25,6 +26,7 @@
         android:background="@drawable/button"
         android:text="Katinig"
         android:textSize="50dp"
+        android:textColor="@color/black"
         android:padding="10dp"
         />
 </LinearLayout>

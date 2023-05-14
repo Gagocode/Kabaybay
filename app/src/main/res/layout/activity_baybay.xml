@@ -30,7 +30,7 @@
                 android:background="@drawable/button"
                 android:text="ᜊ"
                 android:textSize="70dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:padding="5px"/>
 
             <Button
@@ -45,7 +45,7 @@
                 android:background="@drawable/button"
                 android:text="ᜃ"
                 android:textSize="70dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:padding="5px"/>
 
         </RelativeLayout>
@@ -67,7 +67,7 @@
                 android:background="@drawable/button"
                 android:text="ᜇ"
                 android:textSize="70dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:padding="5px"/>
 
 

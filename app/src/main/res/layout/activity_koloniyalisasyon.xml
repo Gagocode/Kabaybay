@@ -27,7 +27,8 @@
                 android:padding="5dp"
                 android:text="@string/kolonialismo1"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:background="@color/white"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -36,13 +37,15 @@
                 android:text="@string/kolonialismo2"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:layout_marginBottom="40dp"/>
+                android:layout_marginBottom="40dp"
+                android:background="@color/white"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="271dp"
                 android:src="@drawable/baybayindocs"
                 android:layout_gravity="center"
+                android:background="@color/white"
                 />
             <TextView
                 android:layout_width="300dp"
@@ -51,7 +54,8 @@
                 android:text="@string/ust"
                 android:textSize="11sp"
                 android:textAlignment="center"
-                android:layout_marginBottom="30dp"/>
+                android:layout_marginBottom="30dp"
+                android:background="@color/white"/>
         </LinearLayout>
     </LinearLayout>
 

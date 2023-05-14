@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ta">
+    tools:context=".Ya">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +26,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜌ"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="110sp" />
 
             <TextView
@@ -40,10 +41,11 @@
                 android:layout_marginEnd="69dp"
                 android:layout_marginBottom="23dp"
                 android:text="Ya"
-                android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="50sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/Player"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -69,7 +71,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜌᜒ"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
+                android:background="@color/white"
                 android:textSize="110sp" />
 
             <TextView
@@ -83,10 +86,11 @@
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="23dp"
                 android:text="Ye/Yi"
-                android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="50sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/Player2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -110,8 +114,9 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="17dp"
                 android:text="ᜌᜓ"
-                android:textColor="@color/white"
-                android:textSize="110dp" />
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="110sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -123,10 +128,11 @@
                 android:layout_marginTop="47dp"
                 android:layout_marginEnd="20dp"
                 android:text="Yo/Yu"
-                android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="50sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/Player3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
