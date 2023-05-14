@@ -10,13 +10,23 @@
         android:id="@+id/settingsBar"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginEnd="35dp"
-        android:layout_toStartOf="@+id/null"
         android:background="?colorSecondary"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
+            android:id="@+id/back"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_arrow"
+            android:background="?colorSecondary"/>
+
+        <ImageButton
+            android:id="@+id/themes"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="20dp"
@@ -30,6 +40,7 @@
             android:textColor="?colorOnSecondary" />
 
         <ImageButton
+            android:id="@+id/lang"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="5dp"
@@ -44,6 +55,7 @@
             android:textColor="?colorOnSecondary" />
 
         <ImageButton
+            android:id="@+id/info"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="5dp"
@@ -59,7 +71,8 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
+        android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_alignParentTop="true"
@@ -71,6 +84,11 @@
         app:layout_constraintStart_toEndOf="@+id/settingsBar"
         app:layout_constraintTop_toTopOf="parent">
 
-    </LinearLayout>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView2"
+            android:name="com.example.kabaybay.Themes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
