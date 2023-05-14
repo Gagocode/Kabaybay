@@ -7,12 +7,12 @@
         <item name="colorOnPrimary">@color/brown</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/white</item>
-        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorSecondaryVariant">@color/brown</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/statusBarBrown</item>
         <!-- Customize your theme here. -->
-        <item name="android:background">@color/brown</item>
+        <item name="android:windowBackground">@color/brown</item>
         <item name="android:textColor">@color/white</item>
 
 
