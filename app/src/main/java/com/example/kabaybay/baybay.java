@@ -107,6 +107,18 @@ public class baybay extends AppCompatActivity {
                 openYa();
             }
         });
+        nga = (Button) findViewById(R.id.nga);
+        nga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNga();
+            }
+        });
+    }
+
+    private void openNga() {
+        Intent intent = new Intent(this, nga_baybay.class);
+        startActivity(intent);
     }
 
     private void openYa() {
