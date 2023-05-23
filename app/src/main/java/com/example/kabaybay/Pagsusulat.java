@@ -36,12 +36,12 @@ public class Pagsusulat extends AppCompatActivity {
     }
 
     private void openBaybay() {
-        Intent intent = new Intent(this, baybay.class);
+        Intent intent = new Intent(this, Sulat.class);
         startActivity(intent);
     }
 
     private void openTyping() {
-        Intent intent = new Intent(this,Sulat.class);
+        Intent intent = new Intent(this, baybay.class);
         startActivity(intent);
     }
 }

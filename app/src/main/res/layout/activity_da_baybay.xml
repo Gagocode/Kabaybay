@@ -30,36 +30,64 @@
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:layout_marginBottom="20sp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/da"
+                android:layout_marginBottom="25dp"
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Step 1:"
-                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:text="De/Di"
+                android:textSize="30sp"
                 android:textColor="@color/black"
-                android:background="@color/white"/>
+                android:background="@color/white"
+                android:layout_marginBottom="20sp"/>
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="325dp"
-                android:src="@drawable/spell_da"
-                android:layout_gravity="center"
-                android:layout_marginBottom="20sp"
-                android:background="@color/white"/>
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/de"
+                android:layout_marginBottom="25dp"
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Step 2:"
-                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:text="Do/Du"
+                android:textSize="30sp"
                 android:textColor="@color/black"
-                android:background="@color/white"/>
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="325dp"
-                android:src="@drawable/spell_da2"
-                android:layout_gravity="center"
-                android:layout_marginBottom="20sp"
-                android:background="@color/white"/>
+                android:background="@color/white"
+                android:layout_marginBottom="20sp"/>
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/du"
+                android:layout_marginBottom="25dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="D"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="20sp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/d"
+                android:layout_marginBottom="25dp"
+                />
         </LinearLayout>
     </LinearLayout>
 

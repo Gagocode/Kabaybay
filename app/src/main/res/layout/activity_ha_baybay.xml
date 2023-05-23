@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ba_baybay">
+    tools:context=".ha_baybay">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Ka"
+                android:text="Ha"
                 android:textSize="30sp"
                 android:textColor="@color/black"
                 android:background="@color/white"
@@ -34,7 +34,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ka"
+                android:src="@drawable/ha"
                 android:layout_marginBottom="25dp"
                 />
 
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Ke/Ki"
+                android:text="He/Hi"
                 android:textSize="30sp"
                 android:textColor="@color/black"
                 android:background="@color/white"
@@ -51,7 +51,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ke"
+                android:src="@drawable/he"
                 android:layout_marginBottom="25dp"
                 />
 
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Ko/Ku"
+                android:text="Ho/Hu"
                 android:textSize="30sp"
                 android:textColor="@color/black"
                 android:background="@color/white"
@@ -68,7 +68,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ko"
+                android:src="@drawable/ho"
                 android:layout_marginBottom="25dp"
                 />
 
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="K"
+                android:text="h"
                 android:textSize="30sp"
                 android:textColor="@color/black"
                 android:background="@color/white"
@@ -85,9 +85,10 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/k"
+                android:src="@drawable/h"
                 android:layout_marginBottom="25dp"
                 />
+
         </LinearLayout>
     </LinearLayout>
 

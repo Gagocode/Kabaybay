@@ -30,20 +30,64 @@
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:layout_marginBottom="20sp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ba"
+                android:layout_marginBottom="25dp"
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Step 1:"
-                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:text="Be/Bi"
+                android:textSize="30sp"
                 android:textColor="@color/black"
-                android:background="@color/white"/>
+                android:background="@color/white"
+                android:layout_marginBottom="20sp"/>
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="325dp"
-                android:src="@drawable/spell_ba"
-                android:layout_gravity="center"
-                android:background="@color/white"/>
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bi"
+                android:layout_marginBottom="25dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Bo/Bu"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="20sp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bo"
+                android:layout_marginBottom="25dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="B"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginBottom="20sp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/b"
+                android:layout_marginBottom="25dp"
+                />
 
         </LinearLayout>
     </LinearLayout>
