@@ -137,10 +137,6 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Settings"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".Pagsusulit_pagbasa"
             android:exported="false"
             android:screenOrientation="portrait" />

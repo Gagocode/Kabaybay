@@ -13,8 +13,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btn;
     private Button btn2;
     private Button btn3;
-    private Button setting;
-    private long pressedTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,21 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 openKasaysayan();
             }
         });
-
-        setting = (Button) findViewById(R.id.settings);
-        setting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openSettings();
-            }
-        });
-
-
-    }
-
-    private void openSettings() {
-        Intent intent = new Intent(this, Settings.class);
-        startActivity(intent);
     }
 
     public void openPagbasa() {

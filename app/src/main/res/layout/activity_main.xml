@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/settings"
-        android:layout_width="49dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/ic_setting"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/textView"
@@ -22,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="112dp"
         android:gravity="center"
+        android:textColor="@color/white"
         android:text="@string/app_name"
         android:textSize="60sp"
         android:textStyle="bold"
@@ -29,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:shadowColor="@color/ChineseBlack"
+        android:shadowColor="@color/Eerie_Black"
         android:shadowDx="10"
         android:shadowDy="15"
         android:shadowRadius="2"/>
