@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class Katinig extends AppCompatActivity {
@@ -21,6 +22,7 @@ public class Katinig extends AppCompatActivity {
     private Button btn11;
     private Button btn12;
     private Button btn13;
+    private Button btn14;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,21 +41,97 @@ public class Katinig extends AppCompatActivity {
         btn11 = (Button) findViewById(R.id.ta);
         btn12 = (Button) findViewById(R.id.wa);
         btn13 = (Button) findViewById(R.id.ya);
+        btn14 = (Button) findViewById(R.id.nga);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openBa();
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openKa();
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDa();
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openGa();
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openHa();
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openLa();
+            }
+        });
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMa();
+            }
+        });
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNa();
+            }
+        });
+        btn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPa();
+            }
+        });
+        btn10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSa();
+            }
+        });
+        btn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openTa();
+            }
+        });
+        btn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openWa();
+            }
+        });
+        btn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openYa();
+            }
+        });
+        btn14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNga();
+            }
+        });
 
-        btn.setOnClickListener(v -> openBa());
-        btn2.setOnClickListener(v -> openKa());
-        btn3.setOnClickListener(v -> openDa());
-        btn4.setOnClickListener(v -> openGa());
-        btn5.setOnClickListener(v -> openHa());
-        btn6.setOnClickListener(v -> openLa());
-        btn7.setOnClickListener(v -> openMa());
-        btn8.setOnClickListener(v -> openNa());
-        btn9.setOnClickListener(v -> openPa());
-        btn10.setOnClickListener(v -> openSa());
-        btn11.setOnClickListener(v -> openTa());
-        btn12.setOnClickListener(v -> openWa());
-        btn13.setOnClickListener(v -> openYa());
+    }
 
+    private void openNga() {
+        Intent intent = new Intent(this, nga.class);
+        startActivity(intent);
     }
 
     private void openYa() {
