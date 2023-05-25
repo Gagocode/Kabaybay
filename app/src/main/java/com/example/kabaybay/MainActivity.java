@@ -36,13 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn3 = (Button) findViewById(R.id.button3);
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openKasaysayan();
-            }
-        });
     }
 
     public void openPagbasa() {
